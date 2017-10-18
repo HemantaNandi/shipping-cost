@@ -41,7 +41,7 @@ def makeWebhookResult(req):
     print("Response:")
     print(speech)
 
-    response = {
+    return {
         'code':200,
         'headers': {
             "Content-Type": "application/json"

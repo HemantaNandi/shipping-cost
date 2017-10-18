@@ -42,14 +42,12 @@ def makeWebhookResult(req):
     print(speech)
 
  return {
-        "speech": "abc",
-        "displayText": "abc",
+        "speech": speech,
+        "displayText": speech,
         #"data": {},
         # "contextOut": [],
         "source": "shipping-cost"
     }
-
-
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))

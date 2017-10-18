@@ -41,8 +41,8 @@ def makeWebhookResult(req):
     print("Response:")
     print(speech)
     return {
-        "speech": "abc",
-        "displayText": "abc",
+        "speech": speech,
+        "displayText": speech,
         #"data": {},
         #"contextOut": [],
         "source": "apiai-onlinestore-shipping"

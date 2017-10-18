@@ -41,12 +41,12 @@ def makeWebhookResult(req):
     print("Response:")
     print(speech)
 
-    return {
-        "speech": speech,
-        "displayText": speech,
-        #"data": {},
-        # "contextOut": [],
-        "source": "shipping-cost"
+    response = {
+        'code':200,
+        'headers': {
+            "Content-Type": "application/json"
+            },
+        'body': speech
     }
 
 

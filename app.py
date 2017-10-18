@@ -42,8 +42,8 @@ def makeWebhookResult(req):
     print(speech)
 
  return {
-        "speech": 'abc',
-        "displayText": 'abc',
+        "speech": "abc",
+        "displayText": "abc",
         #"data": {},
         # "contextOut": [],
         "source": "shipping-cost"
